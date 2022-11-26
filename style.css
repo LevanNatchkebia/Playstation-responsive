@@ -170,7 +170,23 @@ button:hover {
         overflow: hidden;
         transition: 1.5s;
     }
-    .controller {
-        order: 1;
+   .second {
+        flex-direction:column-reverse;
+        margin: 50px 0;
+    }
+    .col-2 {
+            margin-bottom:50px;
+    }
+    .col-2 .controller {
+            width:70%;
+    }
+    .divider {
+            transform:translateX(75px);
+    }
+    .col-1 h2 {
+        font-size: 35px;
+    }
+    .col-1 h3 {
+        font-size:15px;
     }
 }
